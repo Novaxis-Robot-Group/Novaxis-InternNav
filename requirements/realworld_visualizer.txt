@@ -1,0 +1,9 @@
+# Core dependencies for the Experiment Viewer on port 8899.
+Flask>=2.3,<4
+numpy>=1.24,<3
+Pillow>=10,<13
+requests>=2.31,<3
+
+# Optional features have separate requirement files:
+#   requirements/experiment_analysis.txt
+#   requirements/agent_memory.txt
